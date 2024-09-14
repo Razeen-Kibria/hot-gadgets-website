@@ -18,3 +18,30 @@
 	cursor: pointer;
                 font-size: 20px;
 }
+
+.card-footer,.price,.card-title,{
+	text-align: center;
+}
+
+.col,.card{
+	border: none;
+	box-shadow: 5px 5px 10px gray;
+	
+}
+.SEE{
+	color: red;
+}
+.Cat{
+	text-align: center;
+	text-decoration: underline chocolate;
+	
+}
+#perfume{
+	border: none;
+	background-color: beige;
+	padding: 10px 10px;
+	
+
+}
+
+

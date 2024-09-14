@@ -1,111 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Hot-Gadgets-site</title>
-                <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-                <link rel="stylesheet" href="style.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hot-Gadgets-site</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#"
+						><img src="logo/logo.png" alt=""
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbarNav"
+					>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#Home"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Categories">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Price">Price</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contract">contract</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
 
-<div class="container">
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-<div class="container-fluid">
-<a class="navbar-brand" href="#"><img src="logo/logo.png" alt=""></a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
- <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link active" aria-current="page" href="#Home">Home</a>
- </li>
-<li class="nav-item">
-<a class="nav-link" href="#"About">About</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#Price">Price</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#contract">contract</a>
-</li>
-                                                     
-</ul>
-</div>
-</div>
-</nav>
-</div>  
+		<div class="container">
+			<div id="carouselExampleIndicators" class="carousel slide">
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner orange-bg">
+					<div class="carousel-item active">
+						<div class="row align-items-center">
+							<div class="col-md-7">
+								<h1>Mackbook-pro</h1>
+								<p>
+									The MacBook is Apple's flagship line of laptops, renowned for
+									its sleek design, powerful performance, and seamless
+									integration with the Apple ecosystem. Known for their
+									high-resolution Retina displays, MacBooks offer crisp visuals
+									that are ideal for creative work, web development, and
+									multimedia consumption. Powered by Apple's M-series chips,
+									MacBooks deliver impressive speed, energy efficiency, and
+									extended battery life, making them a favorite among
+									professionals and students alike.
+								</p>
 
-<div class="container">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                                <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active orange-bg">
-                                <div class="row align-items-center">
-                                                <div class="col-md-7">
-                                                                <h1>Mackbook-pro</h1>
-                                                <p>The MacBook is Apple's flagship line of laptops, renowned for its sleek design, powerful performance, and seamless integration with the Apple ecosystem. Known for their high-resolution Retina displays, MacBooks offer crisp visuals that are ideal for creative work, web development, and multimedia consumption. Powered by Apple's M-series chips, MacBooks deliver impressive speed, energy efficiency, and extended battery life, making them a favorite among professionals and students alike.</p>
-                                                              
-                                                                <button class="Buy-now">Buy Now>></button>
-                                                </div>
-                                                <div class="col-md-5">
-                                                                <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
-                                                </div>
-                                </div>
-                                  </div>
-                                  <div class="carousel-item">
-                                                <div class="row align-items-center">
-                                                <div class="col-md-7">
-                                                                <h1>Headphone</h1>
-                                                                <p>Headphones are essential audio devices used for personal listening, offering an immersive experience by delivering high-quality sound directly to the ears. Available in various styles—such as over-ear, on-ear, and in-ear—they cater to different preferences in comfort and sound isolation. Modern headphones come equipped with advanced features like noise cancellation, wireless Bluetooth connectivity, and long battery life</p>
-                                                                <button class="Buy-now">Buy Now>> </button>
-                                                </div>
-                                                <div class="col-md-5">
-                                                                <img src="banner-products/slider-1.png" class="d-block w-100" alt="...">                
-                                                </div>
-                                                </div>
-                                    
-                                  </div>
-                                  <div class="carousel-item">
-                                <div class="row align-items-center">
-                                                <div class="col-md-7">
-                                                                <h1>Speaker</h1>
-                                                                <p>Speakers are devices designed to produce high-quality sound for a wide range of audio experiences, from music to movies and presentations. Available in various sizes and configurations, speakers can range from compact portable units to large, multi-channel systems for home theaters. Modern speakers often feature wireless connectivity through Bluetooth or Wi-Fi, allowing for easy integration with smartphones, laptops, and other devices</p>
-                                                                <button class="Buy-now">Buy Now>></button>
-                                                </div>
-                                                <div class="col-md-5">
-                                                                <img src="banner-products/slider-3.png" class="d-block w-100" alt="...">
-                                                </div>
-                                </div>
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-</div>
+								<button class="Buy-now">Buy Now>></button>
+							</div>
+							<div class="col-md-5">
+								<img
+									src="banner-products/product-1.png"
+									class="d-block w-100"
+									alt="..."
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row align-items-center">
+							<div class="col-md-7">
+								<h1>Headphone</h1>
+								<p>
+									Headphones are essential audio devices used for personal
+									listening, offering an immersive experience by delivering
+									high-quality sound directly to the ears. Available in various
+									styles—such as over-ear, on-ear, and in-ear—they cater to
+									different preferences in comfort and sound isolation. Modern
+									headphones come equipped with advanced features like noise
+									cancellation, wireless Bluetooth connectivity, and long
+									battery life
+								</p>
+								<button class="Buy-now">Buy Now>></button>
+							</div>
+							<div class="col-md-5">
+								<img
+									src="banner-products/slider-1.png"
+									class="d-block w-100"
+									alt="..."
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row align-items-center">
+							<div class="col-md-7">
+								<h1>Speaker</h1>
+								<p>
+									Speakers are devices designed to produce high-quality sound
+									for a wide range of audio experiences, from music to movies
+									and presentations. Available in various sizes and
+									configurations, speakers can range from compact portable units
+									to large, multi-channel systems for home theaters. Modern
+									speakers often feature wireless connectivity through Bluetooth
+									or Wi-Fi, allowing for easy integration with smartphones,
+									laptops, and other devices
+								</p>
+								<button class="Buy-now">Buy Now>></button>
+							</div>
+							<div class="col-md-5">
+								<img
+									src="banner-products/slider-3.png"
+									class="d-block w-100"
+									alt="..."
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
 
+		<div class="container" id="">
+			<div class="d-flex">
+				<div class="p-2 flex-grow-1"><h3>Smartphones</h3></div>
+				<div class="SEE" ="p-2"><h4>see all>></h4></div>
+			</div>
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+				<div class="col">
+					<div class="card h-100">
+						<img src="phone/phone-2.png" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">i-phone 16 pro Max</h5>
+							<p class="card-text">
+								Apple introduced the iPhone 16 Pro Max at its September 2024
+								event. This model boasts a 6.9-inch OLED display, the largest
+								ever on an iPhone, with a 120Hz refresh rate for smooth visuals.
+							</p>
+							<p class="price">$250</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-body-secondary">
+								<button class="Buy-now">Buy Now>></button></small
+							>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="phone/phone-1.png" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Radmi-Mi9T</h5>
+							<p class="card-text">
+								The Redmi Mi 9T was introduced in June 2019 as a mid-range
+								smartphone under Xiaomi’s Redmi lineup. It's also known as the
+								Redmi K20 in some region
+							</p>
+							<p class="price">$280</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-body-secondary">
+								<button class="Buy-now">Buy Now>></button></small
+							>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card h-100">
+						<img src="phone/phone-3.png" class="card-img-top" alt="..." />
+						<div class="card-body">
+							<h5 class="card-title">Samsung Galaxy</h5>
+							<p class="card-text">
+								Samsung's Galaxy series continues to be a leader in the
+								smartphone market, with the Samsung Galaxy S23 lineup being the
+								latest release, launched in early 2023. This series includes
+								three
+							</p>
+							<p class="price">$180</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-body-secondary">
+								<button class="Buy-now">Buy Now>></button></small
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                                      
-<script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"
-  ></script>
-</body>
+		<div class="container">
+			<div class="d-flex">
+				<div class="p-2 flex-grow-1"><h3>Laptop</h3></div>
+				<div class="SEE" ="p-2"><h4>see all>></h4></div>
+			</div>
+
+			<div class="card-group">
+				<div class="card">
+					<img src="laptop/product-1.png" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">Asus VivoBook</h5>
+						<p class="card-text">
+							The Asus VivoBook series is known for offering budget-friendly
+							laptops with decent performance, aimed at students, professionals,
+							and casual users. Here's a general overview of the VivoBook
+							lineup:.
+						</p>
+					</div>
+					<div class="card-footer">
+						<small class="text-body-secondary"
+							><button class="Buy-now">Buy Now>></button></small
+						>
+					</div>
+				</div>
+				<div class="card">
+					<img src="laptop/product-2.png" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">Razer Blade 15</h5>
+						<p class="card-text">
+							TThe Razer Blade 15 is one of Razer's flagship gaming laptops,
+							known for its powerful hardware, sleek design, and high-end
+							features. Here are the key specifications and highlights of the
+							2023 Razer Blade 15 model:
+						</p>
+					</div>
+					<div class="card-footer">
+						<small class="text-body-secondary"
+							><button class="Buy-now">Buy Now>></button></small
+						>
+					</div>
+				</div>
+				<div class="card">
+					<img src="laptop/product-3.png" class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">xiaomi mi-Book</h5>
+						<p class="card-text">
+							Xiaomi's Mi Notebook series includes several impressive models,
+							such as the Mi Notebook Ultra and the Xiaomi Book Pro 16. These
+							laptops are designed for power users, offering strong performance
+							and sleek design
+						</p>
+					</div>
+					<div class="card-footer">
+						<small class="text-body-secondary"
+							><button class="Buy-now">Buy Now>></button></small
+						>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h3 class="Cat">Categories</h3>
+
+			<div id="carouselExampleDark" class="carousel carousel-dark slide">
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleDark"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="10000">
+						<div class="row align-items-center">
+							<div class="col-md-3">
+								<img src="Categories/bag.png" alt="" />
+								<img src="Categories/shoe.png" alt="" />
+							</div>
+							<div class="col-md-3" id="perfume">
+								<img src="Categories/perfume.png" alt="" />
+							</div>
+							<div class="col-md-6">
+								<img
+									src="Categories/pale-order.png"
+									class="d-block w-100"
+									alt="..."
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+			integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
